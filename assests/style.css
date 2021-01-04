@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto+Mono:wght@200&display=swap');
+
+body{
+    background-color: #f5f5f5;
+    font-family: 'Roboto Mono';
+    padding: 20px;
+}
+
+main{
+    font-size: 14px;
+}
+
+header{
+    background-image: url('gbk.jpg');
+}
+
+#konten{
+    float: left;
+    width: 50%;
+}
+
+#img-div{
+    float: right;
+    width: 50%;
+}
+
+#image{
+    max-width: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#gambar-masjid{
+    max-width: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
