@@ -26,6 +26,7 @@ header{
 #konten{
     float: left;
     width: 50%;
+    text-align: justify;
 }
 
 #img-div{
@@ -49,6 +50,7 @@ header{
 @media only screen and (max-width: 800px){
     header{
         font-size: 12px;
+        color: white;
     }
 
     main{
@@ -60,23 +62,26 @@ header{
     }
 
     #konten{
+        text-align: justify;
         width: 100vw;
-        padding: 0px 5px;
+        margin: auto;
+        padding: 0px 10px;
+        float: unset;
     }
 
     #img-div{
         width: 100vw;
+        margin: auto;
+        float: unset;
     }
 
     #image{
         width: 80vw;
-        margin: auto;
         padding: 5px 0px;
     }
 
     #gambar-masjid{
         width: 80vw;
-        margin: auto;
         padding: 5px 0px;
     }
 
